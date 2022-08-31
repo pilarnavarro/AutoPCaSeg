@@ -3,8 +3,7 @@ import os
 import numpy as np
 from metrics import AUC, evaluation, dice, IOU, accuracy, f1
 from torch.optim.lr_scheduler import CosineAnnealingLR
-from monai.networks.nets import BasicUnet, VNet, DynUNet
-from resunet import UNet
+from monai.networks.nets import UNet, BasicUnet, VNet, DynUNet
 import numpy as np
 from monai.networks.layers.factories import Conv
 import torch
